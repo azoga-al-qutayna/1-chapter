@@ -1,29 +1,10 @@
-// const number = 4;
-// let result = false;
+let password = prompt("Введите пароль");
 
-// while (!result) {
-//   const answer = prompt('Пароль?');
-//   if (answer === null) {
-//     break;
-//   }
-//   switch (+answer) {
-//     case number - 5:
-//     case number + 5:
-//       alert('Уже теплее!');
-//       break;
-//     case number - 2:
-//     case number + 2:
-//       alert('Горячо!');
-//       break;
-//     case number:
-//       alert('Ты угадал! Это число {040506}.');
-//       result = true;
-//       break;
-//     default:
-//       alert('Холодно!');
-//   }
-// }
-
+if (password === "42064") {
+    alert("Добро пожаловать");
+} else {
+    alert("Пароль неверный");
+}
 // $(function() {
 
 /* Menu nav toggle*/
@@ -40,7 +21,6 @@ event.preventDefault();
 
 
 // });
-
 
 
 

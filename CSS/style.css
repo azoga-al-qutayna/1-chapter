@@ -468,3 +468,27 @@ margin: 10px auto;
   padding: 0;
 
 }
+.navigation{
+  display:flex;
+  justify-content:center; /* центр по горизонтали */
+  gap:15px;
+  margin-top:50px;
+}
+
+.prev, .next{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:45px;
+  height:45px;
+  text-decoration:none;
+  font-size:24px;
+  color:white;
+  background:#444;
+  border-radius:6px;
+}
+
+.prev:hover,
+.next:hover{
+  background:#666;
+}
