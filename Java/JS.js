@@ -1,10 +1,20 @@
-let password = prompt("Введите пароль");
+let password;
+
+do {
+    password = prompt("Введите пароль");
+
+    if (password === null) {
+        alert("Вход отменён");
+        window.location.href = "about:blank";
+        break;
+    }
+
+} while (password !== "42064");
 
 if (password === "42064") {
     alert("Добро пожаловать на сайт Азоги!");
-} else {
-    alert("Пароль неверный");
 }
+
 // $(function() {
 
 /* Menu nav toggle*/
@@ -21,20 +31,4 @@ event.preventDefault();
 
 
 // });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
